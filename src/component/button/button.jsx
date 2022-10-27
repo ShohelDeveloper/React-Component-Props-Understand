@@ -22,6 +22,7 @@ const variant = {
 };
 
 const Button = (props) => {
+  console.log(props)
   const userVariant = variant[props.variant];
 
   return (
